@@ -1,0 +1,57 @@
+.my-navbar {
+    display: flex;
+    align-items: center;
+}
+
+.website-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.right-grow {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-grow: 5;
+    text-align: end;
+    margin-left: auto;
+    justify-content: flex-end;
+}
+
+.toggle-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    cursor: pointer;
+    border: 2px solid #000;
+    padding: 4px 8px;
+    border-radius: 8px;
+}
+
+.round-bulit {
+    position: absolute;
+    left: 59%;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 100%;
+    background-color: black;
+}
+
+.round-bulit-on {
+    background-color: #fff;
+}
+
+.toggle-btn-on {
+    border-color: #fff;
+}
+
+
+.toggle-btn-on svg {
+    fill: #fff;
+}
+
+.darkmode-off svg {
+    fill: #000;
+}

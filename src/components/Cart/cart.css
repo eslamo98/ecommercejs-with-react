@@ -1,0 +1,29 @@
+/* #my-cart-component {
+    padding-top: 170px !important;
+} */
+
+.my-container {
+    padding: 50px 100px !important;
+}
+
+.cart-items-container {
+    justify-content: center !important;
+    align-items: center !important;
+}
+.empty-cart {
+    min-width: 150px;
+    margin-bottom: 5px;
+}
+
+.subtotal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.cart-btns {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}

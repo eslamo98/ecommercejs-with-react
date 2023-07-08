@@ -1,0 +1,21 @@
+.myCard {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+
+.product-image {
+    height: 200px;
+    background-size: contain !important;
+}
+
+.card-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-actions {
+    justify-content: flex-end;
+}

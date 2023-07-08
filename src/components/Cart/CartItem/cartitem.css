@@ -1,0 +1,19 @@
+.item-card-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px 0 !important;
+}
+
+.cart-item-actions {
+    padding: 10px 30px 30px !important;
+}
+
+.cart-item-btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.remove-btn {
+    margin-left: auto !important;
+}

@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  /* border: none; */
+  outline: none;
+  background-color: transparent;
+}
+
+.App {
+  padding-block: 100px;
+}
+#main-content {
+  /* padding-top: 140px !important; */
+  padding: 0 40px;
+}
+
+.product {
+  margin-bottom: 30px !important;
+}
